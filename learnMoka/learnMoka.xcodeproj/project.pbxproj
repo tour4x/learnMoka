@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE19EDBB1CA67EB800687E87 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE19EDBA1CA67EB800687E87 /* main.m */; };
+		CE19EDBE1CA67EB800687E87 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE19EDBD1CA67EB800687E87 /* AppDelegate.m */; };
+		CE19EDC11CA67EB800687E87 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE19EDC01CA67EB800687E87 /* ViewController.m */; };
+		CE19EDC41CA67EB800687E87 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE19EDC21CA67EB800687E87 /* Main.storyboard */; };
+		CE19EDC61CA67EB800687E87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE19EDC51CA67EB800687E87 /* Assets.xcassets */; };
+		CE19EDC91CA67EB800687E87 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE19EDC71CA67EB800687E87 /* LaunchScreen.storyboard */; };
+		CE19EDD41CA67EB800687E87 /* learnMokaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE19EDD31CA67EB800687E87 /* learnMokaTests.m */; };
+		CE19EDDF1CA67EB800687E87 /* learnMokaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE19EDDE1CA67EB800687E87 /* learnMokaUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE19EDD01CA67EB800687E87 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE19EDAE1CA67EB800687E87 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE19EDB51CA67EB800687E87;
+			remoteInfo = learnMoka;
+		};
+		CE19EDDB1CA67EB800687E87 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE19EDAE1CA67EB800687E87 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE19EDB51CA67EB800687E87;
+			remoteInfo = learnMoka;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CE19EDB61CA67EB800687E87 /* learnMoka.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = learnMoka.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE19EDBA1CA67EB800687E87 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CE19EDBC1CA67EB800687E87 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CE19EDBD1CA67EB800687E87 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CE19EDBF1CA67EB800687E87 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CE19EDC01CA67EB800687E87 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CE19EDC31CA67EB800687E87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE19EDC51CA67EB800687E87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE19EDC81CA67EB800687E87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CE19EDCA1CA67EB800687E87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE19EDCF1CA67EB800687E87 /* learnMokaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = learnMokaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE19EDD31CA67EB800687E87 /* learnMokaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = learnMokaTests.m; sourceTree = "<group>"; };
+		CE19EDD51CA67EB800687E87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE19EDDA1CA67EB800687E87 /* learnMokaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = learnMokaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE19EDDE1CA67EB800687E87 /* learnMokaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = learnMokaUITests.m; sourceTree = "<group>"; };
+		CE19EDE01CA67EB800687E87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE19EDB31CA67EB800687E87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE19EDCC1CA67EB800687E87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE19EDD71CA67EB800687E87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE19EDAD1CA67EB800687E87 = {
+			isa = PBXGroup;
+			children = (
+				CE19EDB81CA67EB800687E87 /* learnMoka */,
+				CE19EDD21CA67EB800687E87 /* learnMokaTests */,
+				CE19EDDD1CA67EB800687E87 /* learnMokaUITests */,
+				CE19EDB71CA67EB800687E87 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE19EDB71CA67EB800687E87 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE19EDB61CA67EB800687E87 /* learnMoka.app */,
+				CE19EDCF1CA67EB800687E87 /* learnMokaTests.xctest */,
+				CE19EDDA1CA67EB800687E87 /* learnMokaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE19EDB81CA67EB800687E87 /* learnMoka */ = {
+			isa = PBXGroup;
+			children = (
+				CE19EDBC1CA67EB800687E87 /* AppDelegate.h */,
+				CE19EDBD1CA67EB800687E87 /* AppDelegate.m */,
+				CE19EDBF1CA67EB800687E87 /* ViewController.h */,
+				CE19EDC01CA67EB800687E87 /* ViewController.m */,
+				CE19EDC21CA67EB800687E87 /* Main.storyboard */,
+				CE19EDC51CA67EB800687E87 /* Assets.xcassets */,
+				CE19EDC71CA67EB800687E87 /* LaunchScreen.storyboard */,
+				CE19EDCA1CA67EB800687E87 /* Info.plist */,
+				CE19EDB91CA67EB800687E87 /* Supporting Files */,
+			);
+			path = learnMoka;
+			sourceTree = "<group>";
+		};
+		CE19EDB91CA67EB800687E87 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE19EDBA1CA67EB800687E87 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CE19EDD21CA67EB800687E87 /* learnMokaTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE19EDD31CA67EB800687E87 /* learnMokaTests.m */,
+				CE19EDD51CA67EB800687E87 /* Info.plist */,
+			);
+			path = learnMokaTests;
+			sourceTree = "<group>";
+		};
+		CE19EDDD1CA67EB800687E87 /* learnMokaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CE19EDDE1CA67EB800687E87 /* learnMokaUITests.m */,
+				CE19EDE01CA67EB800687E87 /* Info.plist */,
+			);
+			path = learnMokaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE19EDB51CA67EB800687E87 /* learnMoka */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE19EDE31CA67EB800687E87 /* Build configuration list for PBXNativeTarget "learnMoka" */;
+			buildPhases = (
+				CE19EDB21CA67EB800687E87 /* Sources */,
+				CE19EDB31CA67EB800687E87 /* Frameworks */,
+				CE19EDB41CA67EB800687E87 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = learnMoka;
+			productName = learnMoka;
+			productReference = CE19EDB61CA67EB800687E87 /* learnMoka.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE19EDCE1CA67EB800687E87 /* learnMokaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE19EDE61CA67EB800687E87 /* Build configuration list for PBXNativeTarget "learnMokaTests" */;
+			buildPhases = (
+				CE19EDCB1CA67EB800687E87 /* Sources */,
+				CE19EDCC1CA67EB800687E87 /* Frameworks */,
+				CE19EDCD1CA67EB800687E87 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE19EDD11CA67EB800687E87 /* PBXTargetDependency */,
+			);
+			name = learnMokaTests;
+			productName = learnMokaTests;
+			productReference = CE19EDCF1CA67EB800687E87 /* learnMokaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CE19EDD91CA67EB800687E87 /* learnMokaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE19EDE91CA67EB800687E87 /* Build configuration list for PBXNativeTarget "learnMokaUITests" */;
+			buildPhases = (
+				CE19EDD61CA67EB800687E87 /* Sources */,
+				CE19EDD71CA67EB800687E87 /* Frameworks */,
+				CE19EDD81CA67EB800687E87 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE19EDDC1CA67EB800687E87 /* PBXTargetDependency */,
+			);
+			name = learnMokaUITests;
+			productName = learnMokaUITests;
+			productReference = CE19EDDA1CA67EB800687E87 /* learnMokaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE19EDAE1CA67EB800687E87 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = JiuFang;
+				TargetAttributes = {
+					CE19EDB51CA67EB800687E87 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					CE19EDCE1CA67EB800687E87 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = CE19EDB51CA67EB800687E87;
+					};
+					CE19EDD91CA67EB800687E87 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = CE19EDB51CA67EB800687E87;
+					};
+				};
+			};
+			buildConfigurationList = CE19EDB11CA67EB800687E87 /* Build configuration list for PBXProject "learnMoka" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE19EDAD1CA67EB800687E87;
+			productRefGroup = CE19EDB71CA67EB800687E87 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE19EDB51CA67EB800687E87 /* learnMoka */,
+				CE19EDCE1CA67EB800687E87 /* learnMokaTests */,
+				CE19EDD91CA67EB800687E87 /* learnMokaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE19EDB41CA67EB800687E87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE19EDC91CA67EB800687E87 /* LaunchScreen.storyboard in Resources */,
+				CE19EDC61CA67EB800687E87 /* Assets.xcassets in Resources */,
+				CE19EDC41CA67EB800687E87 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE19EDCD1CA67EB800687E87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE19EDD81CA67EB800687E87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE19EDB21CA67EB800687E87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE19EDC11CA67EB800687E87 /* ViewController.m in Sources */,
+				CE19EDBE1CA67EB800687E87 /* AppDelegate.m in Sources */,
+				CE19EDBB1CA67EB800687E87 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE19EDCB1CA67EB800687E87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE19EDD41CA67EB800687E87 /* learnMokaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE19EDD61CA67EB800687E87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE19EDDF1CA67EB800687E87 /* learnMokaUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE19EDD11CA67EB800687E87 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE19EDB51CA67EB800687E87 /* learnMoka */;
+			targetProxy = CE19EDD01CA67EB800687E87 /* PBXContainerItemProxy */;
+		};
+		CE19EDDC1CA67EB800687E87 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE19EDB51CA67EB800687E87 /* learnMoka */;
+			targetProxy = CE19EDDB1CA67EB800687E87 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CE19EDC21CA67EB800687E87 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE19EDC31CA67EB800687E87 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CE19EDC71CA67EB800687E87 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE19EDC81CA67EB800687E87 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE19EDE11CA67EB800687E87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CE19EDE21CA67EB800687E87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE19EDE41CA67EB800687E87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = learnMoka/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sellji.learnMoka;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CE19EDE51CA67EB800687E87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = learnMoka/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sellji.learnMoka;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CE19EDE71CA67EB800687E87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = learnMokaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sellji.learnMokaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/learnMoka.app/learnMoka";
+			};
+			name = Debug;
+		};
+		CE19EDE81CA67EB800687E87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = learnMokaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sellji.learnMokaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/learnMoka.app/learnMoka";
+			};
+			name = Release;
+		};
+		CE19EDEA1CA67EB800687E87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = learnMokaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sellji.learnMokaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = learnMoka;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		CE19EDEB1CA67EB800687E87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = learnMokaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sellji.learnMokaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = learnMoka;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE19EDB11CA67EB800687E87 /* Build configuration list for PBXProject "learnMoka" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE19EDE11CA67EB800687E87 /* Debug */,
+				CE19EDE21CA67EB800687E87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE19EDE31CA67EB800687E87 /* Build configuration list for PBXNativeTarget "learnMoka" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE19EDE41CA67EB800687E87 /* Debug */,
+				CE19EDE51CA67EB800687E87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CE19EDE61CA67EB800687E87 /* Build configuration list for PBXNativeTarget "learnMokaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE19EDE71CA67EB800687E87 /* Debug */,
+				CE19EDE81CA67EB800687E87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CE19EDE91CA67EB800687E87 /* Build configuration list for PBXNativeTarget "learnMokaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE19EDEA1CA67EB800687E87 /* Debug */,
+				CE19EDEB1CA67EB800687E87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE19EDAE1CA67EB800687E87 /* Project object */;
+}
